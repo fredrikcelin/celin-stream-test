@@ -1,2 +1,6 @@
+[theme]
+primaryColor = "#FF0000"
+backgroundColor = "green"
+
 [server]
 enableStaticServing = true
