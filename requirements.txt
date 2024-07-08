@@ -7,7 +7,7 @@ matplotlib
 folium
 shapely
 streamlit_folium
-geopandas
+geopandas==0.14.4
 pypsa
 atlite
 xarray
