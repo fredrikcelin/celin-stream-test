@@ -30,6 +30,9 @@ def render_map(DATA_ROOT, selected_lan_code, selected_kom_code, interactive, HEI
     sweden = gpd.read_file(f"{DATA_ROOT}/geo/georef-sweden-kommun@public.geojson") #Source Lantmäteriverket, data maintained by opendatasoft.com
     selection = sweden
 
+    st.write(sweden)
+    return
+
     if selected_lan_code:
         WIDTH = 600
 
