@@ -5,8 +5,9 @@ secondaryBackgroundColor="#D4DADC"
 textColor="#000000"
 font="sans serif"
 
-[browser]
-showSidebarNavigation = false
-
 [client]
 showSidebarNavigation = false
+showErrorDetails = true
+
+[logger]
+level = "debug"
