@@ -23,11 +23,11 @@ def reset_geo(**kwargs):
 
 ########## \ Functions / ##########
 
-def render_map(selected_lan_code, selected_kom_code, interactive, HEIGHT, WIDTH):
+def render_map(DATA_ROOT, selected_lan_code, selected_kom_code, interactive, HEIGHT, WIDTH):
     ########## / Collection of data \ ##########
 
     # Select region, then municipal (start with Sweden)
-    sweden = gpd.read_file(f"../../data/geo/georef-sweden-kommun@public.geojson") #Source Lantmäteriverket, data maintained by opendatasoft.com
+    sweden = gpd.read_file(f"{DATA_ROOT}/geo/georef-sweden-kommun@public.geojson") #Source Lantmäteriverket, data maintained by opendatasoft.com
     selection = sweden
 
     if selected_lan_code:
