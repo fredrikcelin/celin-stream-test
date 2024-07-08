@@ -11,3 +11,4 @@ geopandas==0.14.4
 pypsa
 atlite
 xarray
+seaborn
