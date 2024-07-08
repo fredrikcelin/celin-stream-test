@@ -8,3 +8,6 @@ folium
 shapely
 streamlit_folium
 geopandas
+pypsa
+atlite
+xarray
