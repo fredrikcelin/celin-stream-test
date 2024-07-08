@@ -1,3 +1,10 @@
 altair
 pandas
+numpy
 streamlit
+streamlit_js_eval
+matplotlib
+folium
+shapely
+streamlit_folium
+geopandas
