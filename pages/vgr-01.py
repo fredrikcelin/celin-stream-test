@@ -6,7 +6,7 @@ from energy_chart import render_energy_chart, render_compare_energy_chart
 from legend import render_legend
 from lab import render_network, render_demand
 from data_loading import _config_from_variables, ensure_default_variables, demand_data_from_variables, statistics_data_from_variables, network_data_from_variables
-from tab_settings import render_settings
+#from tab_settings import render_settings
 from advanced import render_advanced
 from filters import render_filters
 
@@ -109,8 +109,8 @@ if DEBUG:
 else:
     col2, col1 = st.columns([4, 13], gap="large")
 
-if DEBUG:
-    render_settings(tab4, CONFIG_NAME)
+#if DEBUG:
+#    render_settings(tab4, CONFIG_NAME)
 
 ########## / Energy info from selection \ ##########
 
