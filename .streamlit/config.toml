@@ -1,6 +1,12 @@
 [theme]
-primaryColor = "#00FF00"
-backgroundColor = "#00FF00"
+primaryColor="#5D9CC7"
+backgroundColor="#FFFFFF"
+secondaryBackgroundColor="#D4DADC"
+textColor="#000000"
+font="sans serif"
 
-[server]
-enableStaticServing = true
+[browser]
+showSidebarNavigation = false
+
+[client]
+showSidebarNavigation = false
